@@ -5,5 +5,5 @@ a = k // n
 b = k % n
 
 
-print('Apples per student:', a)
+print('\nApples per student:', a)
 print('Apples in a basket:', b)
