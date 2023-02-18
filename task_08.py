@@ -1,0 +1,11 @@
+text = input("Enter nums: ")
+
+print("\nThe third character of this string:", text[2])
+print("Penultimate character of this string:",text[-2])
+print("The first five characters of this string:",text[:5])
+print("The entire string except the last two characters:",text[:-2])
+print("All characters with even subscripts:",text[::2])
+print("All characters with odd subscripts:",text[1::2])
+print("All characters are in reverse order:",text[::-1])
+print("All characters of the string one by one in reverse order, starting with the last one:",text[::-2])
+print("The length of this string:",len(text))
