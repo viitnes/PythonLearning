@@ -1,0 +1,1 @@
+print(len(set(input("Enter set 1: ").split()) & set(input("Enter set 2: ").split())))
