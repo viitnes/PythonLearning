@@ -1,6 +1,6 @@
 def expanded_form(num):
     if num <= 0:
-        return "Помилка: введіть число, більше 0"
+        return "Error: enter num > 0"
 
     digits = list(str(num))
 
